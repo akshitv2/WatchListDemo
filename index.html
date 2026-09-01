@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Poster Wall</title>
+    <!-- Imported Google Font: Montserrat for a cinematic look -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* Configuration */
             --posters-per-row: 10;
             --border-width: 4px;
         }
@@ -17,37 +18,76 @@
             width: 100%;
             background-color: #050505;
             overflow-x: hidden;
-            font-family: sans-serif;
+            font-family: 'Montserrat', sans-serif;
         }
 
         #poster-wall {
             display: grid;
             grid-template-columns: repeat(var(--posters-per-row), 1fr);
-            gap: var(--border-width); /* Creates the border separation */
-            padding: var(--border-width); /* Matches outer edge to grid gaps */
-            background-color: #000; /* The color of the borders */
-            width: box-sizing;
+            gap: var(--border-width);
+            padding: var(--border-width);
+            background-color: #000;
             box-sizing: border-box;
+        }
+
+        .poster-container {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 2 / 3;
+            background-color: #111;
+            cursor: pointer;
+            overflow: hidden; /* Contains the image scaling */
         }
 
         .poster {
             width: 100%;
-            aspect-ratio: 2 / 3;
+            height: 100%;
             object-fit: cover;
             display: block;
-            cursor: pointer;
-            transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            background-color: #111; /* Fallback color while image loads */
+            transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+            filter 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         }
 
-        .poster:hover {
-            filter: brightness(0.35);
+        .poster-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            /* Start slightly lower and scaled down */
+            transform: translate(-50%, -30%) scale(0.9);
+            width: 85%;
+            text-align: center;
+            color: #fff;
+            font-size: 1.15rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            opacity: 0;
+            /* Added a subtle spring-like bezier curve for the pop-in */
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            pointer-events: none;
+            word-wrap: break-word;
+            text-shadow: 0px 4px 12px rgba(0, 0, 0, 1), 0px 1px 3px rgba(0, 0, 0, 0.8);
         }
 
-        /* Responsive breakpoints */
+        /* Hover States */
+        .poster-container:hover .poster {
+            filter: brightness(0.2) blur(2px); /* Darken and slightly blur the background */
+            transform: scale(1.08); /* Slow zoom effect */
+        }
+
+        .poster-container:hover .poster-title {
+            opacity: 1;
+            /* Snap to true center and full scale */
+            transform: translate(-50%, -50%) scale(1);
+        }
+
         @media (max-width: 1024px) {
             :root {
                 --posters-per-row: 4;
+            }
+
+            .poster-title {
+                font-size: 1rem;
             }
         }
 
@@ -60,7 +100,12 @@
         @media (max-width: 480px) {
             :root {
                 --posters-per-row: 2;
-                --border-width: 2px; /* Thinner borders on small screens */
+                --border-width: 2px;
+            }
+
+            .poster-title {
+                font-size: 0.9rem;
+                letter-spacing: 1px;
             }
         }
     </style>
@@ -79,16 +124,23 @@
             const fragment = document.createDocumentFragment();
 
             movies.forEach(movie => {
-                // if (!movie.image) return;
+                const container = document.createElement('div');
+                container.className = 'poster-container';
 
                 const img = document.createElement('img');
-                // img.src = "media/movies/" + movie.name + '.png';
-                img.src = movie.startsWith("https://") ? movie : "media/movies/" + String(movie).toLowerCase() + ".png";
-                img.alt = movie || 'Movie Poster';
+                img.src = movie.image;
+
+                img.alt = movie.name || 'Movie Poster';
                 img.className = 'poster';
                 img.loading = 'lazy';
 
-                fragment.appendChild(img);
+                const title = document.createElement('div');
+                title.className = 'poster-title';
+                title.textContent = movie.name;
+
+                container.appendChild(img);
+                container.appendChild(title);
+                fragment.appendChild(container);
             });
 
             wall.appendChild(fragment);
@@ -96,8 +148,9 @@
             console.error('Failed to load movies.json:', error);
         }
     }
-
     loadPosters();
+
+
 </script>
 
 </body>
