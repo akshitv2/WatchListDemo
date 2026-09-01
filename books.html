@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Wall</title>
+    <style>
+        :root {
+            /* Configuration */
+            --posters-per-row: 10;
+            --border-width: 4px;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #050505;
+            overflow-x: hidden;
+            font-family: sans-serif;
+        }
+
+        #poster-wall {
+            display: grid;
+            grid-template-columns: repeat(var(--posters-per-row), 1fr);
+            gap: var(--border-width); /* Creates the border separation */
+            padding: var(--border-width); /* Matches outer edge to grid gaps */
+            background-color: #000; /* The color of the borders */
+            width: box-sizing;
+            box-sizing: border-box;
+        }
+
+        .poster {
+            width: 100%;
+            aspect-ratio: 2 / 3;
+            object-fit: cover;
+            display: block;
+            cursor: pointer;
+            transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background-color: #111; /* Fallback color while image loads */
+        }
+
+        .poster:hover {
+            filter: brightness(0.35);
+        }
+
+        /* Responsive breakpoints */
+        @media (max-width: 1024px) {
+            :root { --posters-per-row: 4; }
+        }
+
+        @media (max-width: 768px) {
+            :root { --posters-per-row: 3; }
+        }
+
+        @media (max-width: 480px) {
+            :root {
+                --posters-per-row: 2;
+                --border-width: 2px; /* Thinner borders on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="poster-wall"></div>
+
+<script>
+    async function loadPosters() {
+        try {
+            const response = await fetch('books.json');
+            const movies = await response.json();
+
+            const wall = document.getElementById('poster-wall');
+            const fragment = document.createDocumentFragment();
+
+            movies.forEach(movie => {
+                // if (!movie.image) return;
+
+                const img = document.createElement('img');
+                // img.src = "media/movies/" + movie.name + '.png';
+                img.src = movie.image;
+                // img.src =  movie.image;
+                img.alt = movie.name || 'Movie Poster';
+                img.className = 'poster';
+                img.loading = 'lazy';
+
+                fragment.appendChild(img);
+            });
+
+            wall.appendChild(fragment);
+        } catch (error) {
+            console.error('Failed to load movies.json:', error);
+        }
+    }
+
+    loadPosters();
+</script>
+
+</body>
+</html>
