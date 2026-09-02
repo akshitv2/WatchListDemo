@@ -1,19 +1,74 @@
 [
-  "Dopamine Nation",
-  "Amusing Ourselves To Death",
-  "The Fisherman",
-  "The Odyssey",
-  "The World Atlas of Coffee",
-  "The gentle art of swedish death cleaning",
-  "The Encyclopedia of the weird and worderful",
-  "Zen: Art of Simple Living",
-  "The day the world Stops shopping",
-  "Shoe Dog",
-  "The shallows",
-  "Acceptance",
-  "Authority",
-  "Pornistan",
-  "Stolen Focs",
-  "Come as you are",
-  "On The Edge"
+  {
+    "name": "Dopamine Nation",
+    "image": "https://images.isbndb.com/covers/24060653482730.jpg"
+  },
+  {
+    "name": "Amusing Ourselves To Death",
+    "image": "https://images.isbndb.com/covers/25167293482238.jpg"
+  },
+  {
+    "name": "The Fisherman",
+    "image": "https://images.isbndb.com/covers/18948533482878.jpg"
+  },
+  {
+    "name": "The Odyssey",
+    "image": "https://images.isbndb.com/covers/20720533482268.jpg"
+  },
+  {
+    "name": "The World Atlas of Coffee",
+    "image": "https://images.isbndb.com/covers/5151913482269.jpg"
+  },
+  {
+    "name": "The Gentle Art of Swedish Death Cleaning",
+    "image": "https://images.isbndb.com/covers/5440093482824.jpg"
+  },
+  {
+    "name": "The Encyclopedia of the Weird and Wonderful",
+    "image": "https://images.isbndb.com/covers/19728353482458.jpg"
+  },
+  {
+    "name": "Zen: Art of Simple Living",
+    "image": "https://images.isbndb.com/covers/25517643482273.jpg"
+  },
+  {
+    "name": "The Day the World Stops Shopping",
+    "image": "https://images.isbndb.com/covers/21455683482449.jpg"
+  },
+  {
+    "name": "Shoe Dog",
+    "image": "https://images.isbndb.com/covers/21690563482711.jpg"
+  },
+  {
+    "name": "The Shallows",
+    "image": "https://images.isbndb.com/covers/660893482328.jpg"
+  },
+  {
+    "name": "Annihilation",
+    "image": "https://images.isbndb.com/covers/10789153482321.jpg"
+  },
+  {
+    "name": "Acceptance",
+    "image": "https://images.isbndb.com/covers/10789393482321.jpg"
+  },
+  {
+    "name": "Authority",
+    "image": "https://images.isbndb.com/covers/10789223482321.jpg"
+  },
+  {
+    "name": "Pornistan",
+    "image": "https://images.isbndb.com/covers/23013913485529.jpg"
+  },
+  {
+    "name": "Stolen Focus",
+    "image": "https://images.isbndb.com/covers/4375123482399.jpg"
+  },
+  {
+    "name": "Come as You Are",
+    "image": "https://images.isbndb.com/covers/21672843482713.jpg"
+  },
+  {
+    "name": "On the Edge",
+    "image": "https://images.isbndb.com/covers/10340233482456.jpg"
+  }
 ]
