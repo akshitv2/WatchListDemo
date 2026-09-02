@@ -94,5 +94,92 @@
   {
     "name": "The Matrix",
     "image": "https://image.tmdb.org/t/p/original/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg](https://image.tmdb.org/t/p/original/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+  },
+  {
+    "name": "The Social Network",
+    "image": "https://image.tmdb.org/t/p/original/yGJASRCr02OXLg51nwRM2SD16Rn.jpg](https://image.tmdb.org/t/p/original/yGJASRCr02OXLg51nwRM2SD16Rn.jpg"
+  },
+  {
+    "name": "Scott Pilgrim vs. the World",
+    "image": "https://image.tmdb.org/t/p/original/g5IoYeudx9XBEfwNL0fHvSckLBz.jpg](https://image.tmdb.org/t/p/original/g5IoYeudx9XBEfwNL0fHvSckLBz.jpg"
+  },
+  {
+    "name": "The Descent",
+    "image": "https://image.tmdb.org/t/p/original/2wjHjzdRWlJcxhCfYnpBdSNiNsg.jpg](https://image.tmdb.org/t/p/original/2wjHjzdRWlJcxhCfYnpBdSNiNsg.jpg"
+  },
+  {
+    "name": "Mickey 17",
+    "image": "https://image.tmdb.org/t/p/original/qUc0Hol3eP74dbW4YyqT6oRLYgT.jpg"
+  },
+  {
+    "name": "Glass Onion",
+    "image": "https://image.tmdb.org/t/p/original/1gKurtZWrqsXB7mSYWY0W4CpUjl.jpg"
+  },
+  {
+    "name": "Arrival",
+    "image": "https://image.tmdb.org/t/p/original/34AIyUtIbBictlaUBuGuurjJXiA.jpg"
+  },  {
+  "name": "The Social Network",
+  "image": "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+},
+  {
+    "name": "Scott Pilgrim vs. the World",
+    "image": "https://m.media-amazon.com/images/M/MV5BNWI5ODc4MTAtN2U2NC00ZDk3LWE3NjAtNjIyODE2YTlhYjYwXkEyXkFqcGdeQXVyOTA3ODI3NDA@._V1_SX300.jpg"
+  },
+  {
+    "name": "The Descent",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/The_Descent_(2005_film)_poster.jpg"
+  },
+  {
+    "name": "Mickey 17",
+    "image": "https://m.media-amazon.com/images/M/MV5BZGQwYmEzMzktYzBmMy00NmVmLTkyYTUtOTYyZjliZDNhZGVkXkEyXkFqcGc@._V1_SX300.jpg"
+  },
+  {
+    "name": "Glass Onion",
+    "image": "https://m.media-amazon.com/images/M/MV5BYmZlZDZkZjYtNzE5Mi00ODFhLTk2OTgtZWVmODBiZTI4NGFiXkEyXkFqcGdeQXVyMTE5MTg5NDIw._V1_SX300.jpg"
+  },
+  {
+    "name": "Arrival",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SX300.jpg"
+  },
+  {
+    "name": "Guardians of the Galaxy",
+    "image": "https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg"
+  },
+  {
+    "name": "Harry Potter and the Prisoner of Azkaban",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg"
+  },
+  {
+    "name": "Harry Potter and the Philosopher's Stone",
+    "image": "https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
+  },
+  {
+    "name": "Black Panther",
+    "image": "https://en.wikipedia.org/wiki/Special:Redirect/file/Black_Panther_film_poster.jpg"
+  },
+  {
+    "name": "Deadpool",
+    "image": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+  },
+  {
+    "name": "WALL·E",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg"
+  },
+  {
+    "name": "Bullet Train",
+    "image": "https://m.media-amazon.com/images/M/MV5BMDU2ZmM2OTYtNzIxYy00NjM5LTliNGQtN2JmOWQzYTBmZWUzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+  },
+  {
+    "name": "Catch Me If You Can",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Catch_Me_If_You_Can_2002_movie.jpg/220px-Catch_Me_If_You_Can_2002_movie.jpg"
+  },
+  {
+    "name": "Home Alone",
+    "image": "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+  },
+  {
+    "name": "The Avengers",
+    "image": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
   }
 ]

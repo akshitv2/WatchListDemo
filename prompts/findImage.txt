@@ -1,0 +1,31 @@
+Take this list, for each of the entries create an entry with the movie name and image link to its poster i.e. the actual image ending with jpg/png/webp etc
+in this format
+
+```
+[
+  {
+    "name": "Barbie",
+    "image": "https://imageurl.jpg"
+  }
+]
+```
+
+```
+  "Escape Room",
+  "The Fall Guy",
+  "A Haunting in Venice",
+  "Murder on the Orient Express",
+  "Avengers: Infinity War",
+  "Death on the Nile",
+  "Hot Fuzz",
+  "Shaun of the Dead",
+  "Mission: Impossible – Dead Reckoning",
+  "Mission: Impossible III",
+  "Mission: Impossible – Ghost Protocol",
+  "Mission: Impossible – Rogue Nation",
+  "Mission: Impossible – Fallout",
+  "Edge of Tomorrow",
+  "Mission: Impossible",
+```
+
+Make sure to check the links to make sure they are working
