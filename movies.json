@@ -21,19 +21,39 @@
   },
   {
     "name": "Iron Man",
-    "image": "https://m.media-amazon.com/images/I/71lVAGaqBtL._AC_SL3840_.jpg"
+    "image": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg"
+  },
+  {
+    "name": "The Incredible Hulk",
+    "image": "https://image.tmdb.org/t/p/w500/vcFeElC8eXI668WSIxcDNkJSBxv.jpg"
   },
   {
     "name": "Iron Man 2",
-    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg"
+    "image": "https://image.tmdb.org/t/p/w500/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg"
+  },
+  {
+    "name": "Thor",
+    "image": "https://image.tmdb.org/t/p/w500/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg"
+  },
+  {
+    "name": "Captain America: The First Avenger",
+    "image": "https://image.tmdb.org/t/p/w500/vSNxAJTlD0r02V9sPYpOjqDZXUK.jpg"
   },
   {
     "name": "The Avengers",
-    "image": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+    "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+  },
+  {
+    "name": "Iron Man 3",
+    "image": "https://image.tmdb.org/t/p/w500/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg"
+  },
+  {
+    "name": "Thor: The Dark World",
+    "image": "https://image.tmdb.org/t/p/w500/wp6OxE4poJ4G7c0U2ZIXasTSMR7.jpg"
   },
   {
     "name": "Captain America: The Winter Soldier",
-    "image": "https://image.tmdb.org/t/p/w500/tVFRpFw3xTedgPGqxW0AOI8Qhh0.jpg"
+    "image": "https://image.tmdb.org/t/p/w500/9Axfv2wjUnsIRJkDaLSnj0ZuMYT.jpg"
   },
   {
     "name": "Guardians of the Galaxy",
@@ -41,11 +61,11 @@
   },
   {
     "name": "Avengers: Age of Ultron",
-    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg"
+    "image": "https://image.tmdb.org/t/p/w500/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg"
   },
   {
     "name": "Ant-Man",
-    "image": "https://image.tmdb.org/t/p/original/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg"
+    "image": "https://image.tmdb.org/t/p/w500/fddtVEUozxvLmehR5yGZjem44pD.jpg"
   },
   {
     "name": "Captain America: Civil War",
@@ -60,24 +80,32 @@
     "image": "https://image.tmdb.org/t/p/w500/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg"
   },
   {
-    "name": "Spider-Man: Far From Home",
-    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg"
+    "name": "Spider-Man: Homecoming",
+    "image": "https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg"
   },
   {
     "name": "Thor: Ragnarok",
-    "image": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/poster/4/3/f/medium-marvel-thor-ragnarok-no-4-wall-poster-print-on-art-paper-original-imah35wmfgeu6k56.jpeg?q=70"
+    "image": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg"
   },
   {
     "name": "Black Panther",
-    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/uxzzxijgPIY7slzFvMotPv8wjKA.jpg"
+    "image": "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg"
   },
   {
     "name": "Avengers: Infinity War",
     "image": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
   },
   {
+    "name": "Ant-Man and the Wasp",
+    "image": "https://image.tmdb.org/t/p/w500/rv1AWImgx386ULjcf62VYaW8zSt.jpg"
+  },
+  {
+    "name": "Captain Marvel",
+    "image": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+  },
+  {
     "name": "Avengers: Endgame",
-    "image": "https://image.tmdb.org/t/p/original/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg](https://image.tmdb.org/t/p/original/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg"
+    "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg"
   },
   {
     "name": "Spider-Man: No Way Home",
@@ -92,12 +120,24 @@
     "image": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
   },
   {
+    "name": "Deadpool 2",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg"
+  },
+  {
+    "name": "Deadpool & Wolverine",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"
+  },
+  {
     "name": "Spider-Man",
-    "image": "https://i.etsystatic.com/6285100/r/il/0c8965/3550688807/il_1080xN.3550688807_iu15.jpg"
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/or6XJBVpcEbIkma0V9zshnbEtx4.jpg"
   },
   {
     "name": "Spider-Man 2",
     "image": "https://i.etsystatic.com/47065167/r/il/88e6c3/5627017845/il_1080xN.5627017845_scma.jpg"
+  },
+  {
+    "name": "Spider-Man 3",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg"
   },
   {
     "name": "Harry Potter and the Philosopher's Stone",
@@ -118,6 +158,14 @@
   {
     "name": "Harry Potter and the Order of the Phoenix",
     "image": "https://image.tmdb.org/t/p/w500/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg"
+  },
+  {
+    "name": "Harry Potter and the Half Blood Price",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg"
+  },
+  {
+    "name": "Harry Potter and the Deathly Hallows: Part 1",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg"
   },
   {
     "name": "Harry Potter and the Deathly Hallows: Part 2",
@@ -170,6 +218,18 @@
   {
     "name": "John Wick",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/wXqWR7dHncNRbxoEGybEy7QTe9h.jpg"
+  },
+  {
+    "name": "John Wick: Chapter 2",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg"
+  },
+  {
+    "name": "John Wick: Chapter 3 - Parabellum",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg"
+  },
+  {
+    "name": "John Wick: Chapter 4",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg"
   },
   {
     "name": "Ballerina",
@@ -229,11 +289,11 @@
   },
   {
     "name": "No Time to Die",
-    "image": "https://image.tmdb.org/t/p/original/64oEFJusPULAkC9RA53hSwZUAYq.jpg"
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg"
   },
   {
     "name": "21 Jump Street",
-    "image": "https://image.tmdb.org/t/p/original/7mI9WOsqABaRnxiKOGNeyAV45WE.jpg"
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg"
   },
   {
     "name": "22 Jump Street",
@@ -452,8 +512,16 @@
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/eSkjK4kctyrWpFhxl35GPvSs6tI.jpg"
   },
   {
+    "name": "Now You See Me",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/tWsNYbrqy1p1w6K9zRk0mSchztT.jpg"
+  },
+  {
+    "name": "Now You See Me 2",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/A81kDB6a1K86YLlcOtZB27jriJh.jpg"
+  },
+  {
     "name": "Now You See Me: Now You Don't",
-    "image": "https://image.tmdb.org/t/p/original/ufqytAlziHq5pljKByGJ8IKhtEZ.jpg"
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/oD3Eey4e4Z259XLm3eD3WGcoJAh.jpg"
   },
   {
     "name": "Don Jon",
@@ -470,10 +538,6 @@
   {
     "name": "Everything Everywhere All at Once",
     "image": "https://image.tmdb.org/t/p/original/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg"
-  },
-  {
-    "name": "Arrival",
-    "image": "https://image.tmdb.org/t/p/original/34AIyUtIbBictlaUBuGuurjJXiA.jpg"
   },
   {
     "name": "Arrival",

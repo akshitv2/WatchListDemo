@@ -11,21 +11,28 @@ in this format
 ```
 
 ```
-  "Escape Room",
-  "The Fall Guy",
-  "A Haunting in Venice",
-  "Murder on the Orient Express",
-  "Avengers: Infinity War",
-  "Death on the Nile",
-  "Hot Fuzz",
-  "Shaun of the Dead",
-  "Mission: Impossible – Dead Reckoning",
-  "Mission: Impossible III",
-  "Mission: Impossible – Ghost Protocol",
-  "Mission: Impossible – Rogue Nation",
-  "Mission: Impossible – Fallout",
-  "Edge of Tomorrow",
-  "Mission: Impossible",
+Iron Man
+The Incredible Hulk
+Iron Man 2
+Thor
+Captain America: The First Avenger
+The Avengers
+Iron Man 3
+Thor: The Dark World
+Captain America: The Winter Soldier
+Guardians of the Galaxy
+Avengers: Age of Ultron
+Ant-Man
+Captain America: Civil War
+Doctor Strange
+Guardians of the Galaxy Vol. 2
+Spider-Man: Homecoming
+Thor: Ragnarok
+Black Panther
+Avengers: Infinity War
+Ant-Man and the Wasp
+Captain Marvel
+Avengers: Endgame
 ```
 
 Make sure to check the links to make sure they are working
