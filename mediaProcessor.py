@@ -36,6 +36,11 @@ def download_images(json_file, OUTPUT_DIR):
 
         output_path = os.path.join(OUTPUT_DIR, filename + extension)
 
+        # Skip download if the file already exists
+        if os.path.isfile(output_path):
+            print(f"Already exists, skipping: {output_path}")
+            continue
+
         try:
             response = requests.get(image_url, timeout=30)
             response.raise_for_status()
@@ -50,7 +55,8 @@ def download_images(json_file, OUTPUT_DIR):
 
 
 if __name__ == "__main__":
-    filename = r"F:\Git\WatchListDemo\movies.json"
-    output_path = r"F:\Git\WatchListDemo\media\movies"
-
-    download_images(filename, output_path)
+    for mediaType in ["books", "movies"]:
+        print(f"Processing {mediaType}")
+        print(os.path.join(os.getcwd(), mediaType+".json"))
+        print(os.path.join(os.getcwd(), "media", mediaType))
+        download_images(os.path.join(os.getcwd(), mediaType+".json"),os.path.join(os.getcwd(), "media", mediaType))
