@@ -140,6 +140,8 @@
             const response = await fetch(jsonPath);
             const movies = await response.json();
 
+            console.log(`Number of items: ${movies.length}`);
+
             const wall = document.getElementById('poster-wall');
             const fragment = document.createDocumentFragment();
 
