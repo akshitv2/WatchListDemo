@@ -102,6 +102,9 @@
   {
     "name": "Jack Reacher",
     "image": "https://image.tmdb.org/t/p/original/uQBbjrLVsUibWxNDGA4Czzo8lwz.jpg"
+  },{
+    "name": "Legend",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/4shf5Alq4KWCKqrAAQe0JGJHYp5.jpg"
   },
   {
     "name": "Drive",
@@ -400,16 +403,19 @@
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/uh8bwvgGXeUKzdL4oSul9zxyTcd.jpg"
   },
   {
+    "name": "Friends With Benifits",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/nKhhDFCdzxeJ3GUunQ570LDpUkz.jpg"
+  },
+  {
+    "name": "Zombieland",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg"
+  },{
     "name": "Shaun of the Dead",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg"
   },
   {
     "name": "Hot Fuzz",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg"
-  },
-  {
-    "name": "Free Guy",
-    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/dxraF0qPr1OEgJk17ltQTO84kQF.jpg"
   },
   {
     "name": "Free Guy",
