@@ -58,10 +58,12 @@
   {
     "name": "The Imitation Game",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg"
-  },{
+  },
+  {
     "name": "The Banshees of Inisherin",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/4yFG6cSPaCaPhyJ1vtGOtMD1lgh.jpg"
-  },{
+  },
+  {
     "name": "In Bruges",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/vz3Vd6nfq9YZrVvyYx5RHFaYKV3.jpg"
   },
@@ -108,7 +110,8 @@
   {
     "name": "Jack Reacher",
     "image": "https://image.tmdb.org/t/p/original/uQBbjrLVsUibWxNDGA4Czzo8lwz.jpg"
-  },{
+  },
+  {
     "name": "Legend",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/4shf5Alq4KWCKqrAAQe0JGJHYp5.jpg"
   },
@@ -385,6 +388,10 @@
     "image": "https://image.tmdb.org/t/p/original/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg"
   },
   {
+    "name": "Fantastic Mr. Fox",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/bOVr292mwn3jxr1e0NmUPM1rcjo.jpg"
+  },
+  {
     "name": "The Wonderful Story of Henry Sugar and Three More",
     "image": "https://image.tmdb.org/t/p/original/a4KY0NfbPiXYiI9wV32FsmrDMIz.jpg"
   },
@@ -415,7 +422,8 @@
   {
     "name": "Zombieland",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg"
-  },{
+  },
+  {
     "name": "Shaun of the Dead",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg"
   },
@@ -478,7 +486,8 @@
   {
     "name": "Bride Wars",
     "image": "https://image.tmdb.org/t/p/original/eyXT8tmUoyHrg7YX1UVjmecHCWP.jpg"
-  },{
+  },
+  {
     "name": "The Proposal",
     "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/6stnAm1wSek8ZrislwK4xGTyCnt.jpg"
   },
@@ -669,10 +678,6 @@
   {
     "name": "Scott Pilgrim vs. the World",
     "image": "https://image.tmdb.org/t/p/original/g5IoYeudx9XBEfwNL0fHvSckLBz.jpg"
-  },
-  {
-    "name": "Fantastic Mr. Fox",
-    "image": "https://www.themoviedb.org/t/p/w600_and_h900_face/bOVr292mwn3jxr1e0NmUPM1rcjo.jpg"
   },
   {
     "name": "Home Alone",
